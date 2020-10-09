@@ -2,125 +2,159 @@
   "main": {
     "name": "윤여경",
     "occupation": "쥬니어 Java 백엔드 개발자입니다",
-    "description": "Full Stack React Developer by Day, Founder && Freelancer by Night. #papaReact",
-    "image": "IG_Sonny.jpeg",
-    "bio": "My name is Sonny, I'm a Full Stack ReactJS Developer. Currently I'm working at Clever Programmer while also coaching ",
+    "description": "Tikkun olam 의 정신으로 엔젠가 인류에게 도움이 되는 서비스를 개발하고 싶습니다",
+    "image": "me.JPG",
+    "bio1": "애플리케이션 설계와 인프라에 관심이 많은 쥬니어 Java 개발자 입니다.",
+    "bio2": "1인 개발자로 커리어를 시작하여 애플리케이션 설계/구현/운영/배포 모든 과정에 참여한 경험이 있습니다.",
+    "bio3": "애플리케이션의 설계와 인프라에 관심이 많고 완성도 높은 설계와 인프라를 구축하기 위해 노력하고 있습니다.",
+    "bio4": "최근에는 AI에 관심이 생겨 지역 정보진흥원에서 운영하는 AI교육에 참여하고 있으며, 어떻게 Real world problem 에 적용할 수 있을지 고민하고있습니다.",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
-    "email": "sonny@cleverprogrammer.com",
-    "phone": "+44 12 345 6789",
+    "email": "Zzzzz.co.kr@gmail.com",
+    "phone": "010 9262 7861",
     "address": {
-      "street": "123 Fake Street",
-      "city": "London",
-      "state": "UK",
-      "zip": "ABC 123"
+      "street": "삼호로 23번길 10-7",
+      "city": "울산",
+      "state": "남구",
+      "zip": "44635"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "resume/윤여경 이력서(Server Engineer 신입).pdf",
     "social": [
       {
-        "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
-        "className": "fa fa-facebook"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha/",
+        "url": "https://www.linkedin.com/in/yeokyung-yoon-323716172/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
-        "className": "fa fa-instagram"
+        "name": "github",
+        "url": "https://github.com/Y-k-Y",
+        "className": "fa fa-github"
       },
       {
-        "name": "github",
-        "url": "http://github.com/sonnysangha",
-        "className": "fa fa-github"
+        "name": "stackoverflow",
+        "url": "https://stackoverflow.com/users/9517076/i-have-10-fingers",
+        "className": "fa fa-stack-overflow"
       }
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University of Kent",
-        "degree": "Masters in Advanced Computer Science",
-        "graduated": "January 2017",
-        "description": "Graduated with Distinction"
+        "school": "학점은행제",
+        "degree": "컴퓨터공학 학사",
+        "graduated": "2016.07 ~ 2019.08"
+      },
+      {
+        "school": "울산KH정보교육원",
+        "degree": "국비지원 자바 응용SW엔지니어링 양성과정",
+        "graduated": "2018.02 ~ 2018.07",
+        "description": "최우수 수료"
+      },
+      {
+        "school": "THC정보처리컴퓨터학원",
+        "degree": "국비지원 C/C++ 프로그래밍 응용과정",
+        "graduated": "2017.09 ~ 2017.11",
+        "description": "프로그래밍에 관심을 가지게 해준 강의"
       }
     ],
     "work": [
       {
-        "company": "Clever Programmer",
-        "title": "Team Member && React Specialist",
-        "years": "April 2020 - Present",
-        "description": "Teaching ReactJS to thousands of students."
-      },
-      {
-        "company": "Lindar Media",
-        "title": "Software Engineer",
-        "years": "Nov 2019 - April 2020",
-        "description": "Building MrQ, a gambling website."
+        "company": "울산US소프트",
+        "title": "쥬니어 Java 개발자",
+        "years": "2019.01 - 현재",
+        "description": "1인 개발자로 다수의 프로젝트에서 설계부터 배포까지의 전 과정 모두 경험"
       }
     ],
+    "skillmessage": "현재 업무에 사용중 혹은 사용했던 기술들입니다.",
     "skills": [
       {
-        "name": "ReactJs",
-        "level": "100%"
+        "name": "Java",
+        "level": "80%"
       },
       {
-        "name": "CSS",
-        "level": "95%"
+        "name": "Spring Framework",
+        "level": "70%"
       },
       {
-        "name": "Git",
+        "name": "MySQL",
         "level": "60%"
       },
       {
-        "name": "Figma && Adobe XD",
-        "level": "55%"
+        "name": "JavaScript",
+        "level": "60%"
       },
       {
-        "name": "HTML5",
-        "level": "80%"
+        "name": "Linux",
+        "level": "50%"
       },
       {
-        "name": "MongoDB",
-        "level": "80%"
+        "name": "AWS",
+        "level": "40%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "whatsapp-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+        "title": "전자정부 표준 프레임워크 기반 공공기관 홈페이지 개발",
+        "period": "2020.02 ~ 2020.04",
+        "description": [
+          "1인 개발자로 개발의 모든 영역 담당",
+          "게시판 시스템과 어드민 페이지 기능 구현",
+          "Hibernate 와 JPA 로 데이터 레이어 구성",
+          "클라우드 서버의 기본 인프라(Nginx, MariaDB, Postfix, vsftpd, firewalld) 설정 구성"
+        ],
+        "skills": [
+          "Java 1.8",
+          "Spring Boot 2.x",
+          "Spring Security 2.x",
+          "MariaDB",
+          "JPA",
+          "Querydsl",
+          "Gradle 6",
+          "CentOS 7"
+        ]
       },
       {
-        "title": "MERN Stack TikTok Clone",
-        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "tiktok-mern.jpeg",
-        "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
+        "title": "현대자동차 노동조합원 교육용 동영상 시청 사이트 개발",
+        "period": "2020.04 ~ 2020.05",
+        "description": [
+          "1인 개발자로 개발의 모든 영역 담당",
+          "엑셀 업로드로 회원 등록과 교육차수 지정 자동화",
+          "JPA N+1 이슈 해결로 쿼리 성능 향상",
+          "Google Charts 를 활용하여 데이터 시각화",
+          "Vimeo API 를 활용하여 영상 업로드 기능 구현",
+          "Junit5 로 테스트 코드 작성"
+        ],
+        "skills": [
+          "Java 1.8",
+          "Spring Boot 2.x",
+          "Spring Security 2.x",
+          "MariaDB",
+          "JPA",
+          "Querydsl",
+          "Gradle 6",
+          "Junit 5"
+        ]
       },
       {
-        "title": "Facebook Clone with React",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "facebook-clone.png",
-        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
-      },
-      {
-        "title": "Airbnb Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "airbnb-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
-      },
-      {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
-        "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
+        "title": "현대마취통증의학과 도수치료 예약 시스템 개발",
+        "period": "2020.08 ~ 2020.09",
+        "description": [
+          "1인 개발자로 개발의 모든 영역 담당",
+          "Google Charts 를 활용하여 데이터 시각화",
+          "Junit5 로 테스트 코드 작성"
+        ],
+        "skills": [
+          "Java 1.8",
+          "Spring Boot 2.x",
+          "Spring Security 2.x",
+          "MariaDB",
+          "JPA",
+          "Querydsl",
+          "Gradle 6",
+          "Junit 5"
+        ]
       }
     ]
   },

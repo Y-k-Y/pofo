@@ -6,7 +6,10 @@ class About extends Component {
     if(this.props.data){
       var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
-      var bio = this.props.data.bio;
+      var bio1 = this.props.data.bio1;
+      var bio2 = this.props.data.bio2;
+      var bio3 = this.props.data.bio3;
+      var bio4 = this.props.data.bio4;
       var street = this.props.data.address.street;
       var city = this.props.data.address.city;
       var state = this.props.data.address.state;
@@ -25,14 +28,18 @@ class About extends Component {
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p>{bio}</p>
+            <p class="bio">{bio1}</p>
+            <p class="bio">{bio2}</p>
+            <p class="bio">{bio3}</p>
+            <p class="bio">{bio4}</p>
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
 						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
+						   <span>{city} {state}<br />
+						         {street}<br />
+                           {zip}
                    </span><br />
 						   <span>{phone}</span><br />
                      <span>{email}</span>
