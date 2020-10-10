@@ -7,21 +7,28 @@ class Portfolio extends Component {
         // var projectImage = "images/portfolio/" + projects.image;
         var description = projects.description;
         var descriptionList = ``;
+        var skills = projects.skills;
+        var skillList = ``;
 
         for (const idx in description) {
-          descriptionList += description[idx];
+          descriptionList += `<li>${description[idx]}</li>`;
+        }
+
+        for (const idx in skills) {
+          skillList += `<li>${skills[idx]}</li>`;
         }
 
         return (
           <div key={projects.title} className="portfolio-item">
             <div className="item-wrap">
-                <div className="portfolio-item-meta">
-                  <h5>{projects.title}</h5>
-                  <p>
-                    <em class="date">{projects.period}</em>
-                  </p>
-                  <ul>{descriptionList}</ul>
-                </div>
+              <div className="portfolio-item-meta">
+                <h3>{projects.title}</h3>
+                <p>
+                  <em class="date">{projects.period}</em>
+                </p>
+                <ul dangerouslySetInnerHTML={{__html: descriptionList}}></ul>
+                <ul className="skill-wrap" dangerouslySetInnerHTML={{__html: skillList}}></ul>
+              </div>
             </div>
           </div>
         );
@@ -38,6 +45,16 @@ class Portfolio extends Component {
               className="bgrid-quarters s-bgrid-thirds cf"
             >
               {projects}
+              <div key="etc" className="portfolio-item">
+                <div className="item-wrap">
+                  <div className="portfolio-item-meta">
+                    <h3>그 외 다수의 그누보드 기반 사이트 개발 및 유지보수</h3>
+                    <p>
+                      <em class="date">2019.06 ~ 2020.10</em>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
