@@ -40,6 +40,11 @@
   "resume": {
     "education": [
       {
+        "school": "울산정보산업진흥원",
+        "degree": "AI 배울랑校 인공지능 인재약성",
+        "graduated": "2020.08 ~ 2020.10"
+      },
+      {
         "school": "학점은행제",
         "degree": "컴퓨터공학 학사",
         "graduated": "2016.07 ~ 2019.08"
