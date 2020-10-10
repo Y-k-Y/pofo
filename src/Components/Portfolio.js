@@ -13,10 +13,8 @@ class Portfolio extends Component {
         }
 
         return (
-          <div key={projects.title} className="columns portfolio-item">
+          <div key={projects.title} className="portfolio-item">
             <div className="item-wrap">
-              <a href={projects.url} title={projects.title}>
-                <img alt={projects.title} src={projectImage} />
                 <div className="portfolio-item-meta">
                   <h5>{projects.title}</h5>
                   <p>
@@ -24,10 +22,6 @@ class Portfolio extends Component {
                   </p>
                   <ul>{descriptionList}</ul>
                 </div>
-                <div className="link-icon">
-                  <i className="fa fa-link"></i>
-                </div>
-              </a>
             </div>
           </div>
         );
@@ -39,7 +33,6 @@ class Portfolio extends Component {
         <div className="row">
           <div className="twelve columns collapsed">
             <h1>Projects</h1>
-
             <div
               id="portfolio-wrapper"
               className="bgrid-quarters s-bgrid-thirds cf"
