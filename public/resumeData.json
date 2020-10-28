@@ -26,11 +26,6 @@
         "className": "fa fa-linkedin"
       },
       {
-        "name": "github",
-        "url": "https://github.com/Y-k-Y",
-        "className": "fa fa-github"
-      },
-      {
         "name": "stackoverflow",
         "url": "https://stackoverflow.com/users/9517076/i-have-10-fingers",
         "className": "fa fa-stack-overflow"
@@ -42,7 +37,7 @@
       {
         "school": "울산정보산업진흥원",
         "degree": "AI 배울랑校 인공지능 인재약성",
-        "graduated": "2020.08 ~ 2020.10"
+        "graduated": "2020.08 ~ 현재"
       },
       {
         "school": "학점은행제",
@@ -107,7 +102,7 @@
           "1인 개발자로 개발의 모든 영역 담당",
           "게시판 시스템과 어드민 페이지 기능 구현",
           "Hibernate 와 JPA 로 데이터 레이어 구성",
-          "클라우드 서버의 기본 인프라(Nginx, MariaDB, Postfix, vsftpd, firewalld) 설정 구성"
+          "클라우드 서버의 기본 인프라(Nginx, MariaDB, Postfix, vsftpd, firewalld) 구성"
         ],
         "skills": [
           "Java 1.8",

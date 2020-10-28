@@ -48,7 +48,7 @@ class Portfolio extends Component {
               <div key="etc" className="portfolio-item">
                 <div className="item-wrap">
                   <div className="portfolio-item-meta">
-                    <h3>그 외 다수의 그누보드 기반 사이트 개발 및 유지보수</h3>
+                    <h3>그 외 다수의 사이트 개발 및 유지보수</h3>
                     <p>
                       <em class="date">2019.06 ~ 2020.10</em>
                     </p>
