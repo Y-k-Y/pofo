@@ -7,18 +7,18 @@
     "bio1": "애플리케이션 설계와 인프라에 관심이 많은 쥬니어 Java 개발자 입니다.",
     "bio2": "1인 개발자로 커리어를 시작하여 애플리케이션 설계/구현/운영/배포 모든 과정에 참여한 경험이 있습니다.",
     "bio3": "애플리케이션의 설계와 인프라에 관심이 많고 완성도 높은 설계와 인프라를 구축하기 위해 노력하고 있습니다.",
-    "bio4": "최근에는 AI에 관심이 생겨 지역 정보진흥원에서 운영하는 AI교육에 참여하고 있으며, 어떻게 Real world problem 에 적용할 수 있을지 고민하고있습니다.",
+    "bio4": "",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "Zzzzz.co.kr@gmail.com",
     "phone": "010 9262 7861",
     "address": {
-      "street": "삼호로 23번길 10-7",
+      "street": "화잠로 51",
       "city": "울산",
-      "state": "남구",
-      "zip": "44635"
+      "state": "동구",
+      "zip": "44115"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "resume/윤여경 이력서(Server Engineer 신입).pdf",
+    "resumedownload": "resume/윤여경 이력서(Backend Engineer).pdf",
     "social": [
       {
         "name": "linkedin",
@@ -36,8 +36,13 @@
     "education": [
       {
         "school": "울산정보산업진흥원",
-        "degree": "AI 배울랑校 인공지능 인재약성",
-        "graduated": "2020.08 ~ 현재"
+        "degree": "AI 배울랑校 인공지능 인재약성(BM)",
+        "graduated": "2020.10 ~ 2020.12"
+      },
+      {
+        "school": "울산정보산업진흥원",
+        "degree": "AI 배울랑校 인공지능 인재약성(고급)",
+        "graduated": "2020.08 ~ 2020.10"
       },
       {
         "school": "학점은행제",
@@ -61,7 +66,13 @@
       {
         "company": "울산US소프트",
         "title": "쥬니어 Java 개발자",
-        "years": "2019.01 - 현재",
+        "years": "2021.06 - 현재",
+        "description": "리드 개발자로 프로젝트의 개발 작업외에 프로젝트 일정 관리와 작업분담을 하며 더 큰 책임감을 경험중"
+      },
+      {
+        "company": "울산US소프트",
+        "title": "쥬니어 Java 개발자",
+        "years": "2019.01 - 2020.11",
         "description": "1인 개발자로 다수의 프로젝트에서 설계부터 배포까지의 전 과정 모두 경험"
       }
     ],
@@ -84,25 +95,63 @@
         "level": "60%"
       },
       {
+        "name": "PHP",
+        "level": "50%"
+      },
+      {
         "name": "Linux",
         "level": "50%"
       },
       {
         "name": "AWS",
         "level": "40%"
+      },
+      {
+        "name": "Redis",
+        "level": "30%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "전자정부 표준 프레임워크 기반 공공기관 홈페이지 개발",
-        "period": "2020.02 ~ 2020.04",
+        "title": "상조 서비스 개발중",
+        "period": "2021.06 ~ 현재",
+        "skills": [
+          "Java 1.8",
+          "Spring Boot 2.x",
+          "Spring Security 2.x",
+          "MySQL",
+          "Redis",
+          "JPA",
+          "Querydsl",
+          "Gradle 6",
+          "CentOS 7"
+        ]
+      },
+      {
+        "title": "자동차 번호로 차량 모델에 맞는 부품 조회하는 서비스 개선",
+        "period": "2021.04 ~ 2021.05",
+        "description": [
+          "기존 시스템의 검색 성능 향상",
+          "Selenium 매크로 최적화"
+        ],
+        "skills": [
+          "Java 1.6",
+          "MySQL",
+          "MyBatis",
+          "Windows Server 2012"
+        ]
+      },
+      {
+        "title": "현대마취통증의학과 도수치료 예약 시스템 개발",
+        "period": "2020.08 ~ 2020.09",
         "description": [
           "1인 개발자로 개발의 모든 영역 담당",
           "게시판 시스템과 어드민 페이지 기능 구현",
           "Hibernate 와 JPA 로 데이터 레이어 구성",
-          "클라우드 서버의 기본 인프라(Nginx, MariaDB, Postfix, vsftpd, firewalld) 구성"
+          "Google Charts 를 활용하여 데이터 시각화",
+          "Junit5 로 테스트 코드 작성"
         ],
         "skills": [
           "Java 1.8",
@@ -112,7 +161,7 @@
           "JPA",
           "Querydsl",
           "Gradle 6",
-          "CentOS 7"
+          "Junit 5"
         ]
       },
       {
@@ -138,14 +187,13 @@
         ]
       },
       {
-        "title": "현대마취통증의학과 도수치료 예약 시스템 개발",
-        "period": "2020.08 ~ 2020.09",
+        "title": "전자정부 표준 프레임워크 기반 공공기관 홈페이지 개발",
+        "period": "2020.02 ~ 2020.04",
         "description": [
           "1인 개발자로 개발의 모든 영역 담당",
           "게시판 시스템과 어드민 페이지 기능 구현",
           "Hibernate 와 JPA 로 데이터 레이어 구성",
-          "Google Charts 를 활용하여 데이터 시각화",
-          "Junit5 로 테스트 코드 작성"
+          "클라우드 서버의 기본 인프라(Nginx, MariaDB, Postfix, vsftpd, firewalld) 구성"
         ],
         "skills": [
           "Java 1.8",
@@ -155,7 +203,7 @@
           "JPA",
           "Querydsl",
           "Gradle 6",
-          "Junit 5"
+          "CentOS 7"
         ]
       }
     ]
