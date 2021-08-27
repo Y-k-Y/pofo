@@ -67,7 +67,7 @@
         "company": "울산US소프트",
         "title": "쥬니어 Java 개발자",
         "years": "2021.06 - 현재",
-        "description": "리드 개발자로 프로젝트의 개발 작업외에 프로젝트 일정 관리와 작업분담을 하며 더 큰 책임감을 경험중"
+        "description": "선임 개발자로 프로젝트의 개발 작업외에 프로젝트 일정 관리와 작업분담을 하며 더 큰 책임감을 경험중"
       },
       {
         "company": "울산US소프트",
@@ -105,30 +105,11 @@
       {
         "name": "AWS",
         "level": "40%"
-      },
-      {
-        "name": "Redis",
-        "level": "30%"
       }
     ]
   },
   "portfolio": {
     "projects": [
-      {
-        "title": "상조 서비스 개발중",
-        "period": "2021.06 ~ 현재",
-        "skills": [
-          "Java 1.8",
-          "Spring Boot 2.x",
-          "Spring Security 2.x",
-          "MySQL",
-          "Redis",
-          "JPA",
-          "Querydsl",
-          "Gradle 6",
-          "CentOS 7"
-        ]
-      },
       {
         "title": "자동차 번호로 차량 모델에 맞는 부품 조회하는 서비스 개선",
         "period": "2021.04 ~ 2021.05",
