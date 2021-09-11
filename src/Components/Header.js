@@ -65,7 +65,7 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">저의 이름은 {name} 입니다.</h1>
+            <h1 className="responsive-headline">매일 성장하는 개발자 {name} 입니다.</h1>
             <h3>
               저는 {city}에 거주하고 있는 <span>{occupation}</span>.{" "}
               {description}.

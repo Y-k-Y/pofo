@@ -18,18 +18,8 @@
       "zip": "44115"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "resume/윤여경 이력서(Backend Engineer).pdf",
+    "resumedownload": "resume/매일_성장하는_개발자_윤여경입니다.pdf",
     "social": [
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/yeokyung-yoon-323716172/",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "stackoverflow",
-        "url": "https://stackoverflow.com/users/9517076/i-have-10-fingers",
-        "className": "fa fa-stack-overflow"
-      }
     ]
   },
   "resume": {
@@ -45,11 +35,6 @@
         "graduated": "2020.08 ~ 2020.10"
       },
       {
-        "school": "학점은행제",
-        "degree": "컴퓨터공학 학사",
-        "graduated": "2016.07 ~ 2019.08"
-      },
-      {
         "school": "울산KH정보교육원",
         "degree": "국비지원 자바 응용SW엔지니어링 양성과정",
         "graduated": "2018.02 ~ 2018.07",
@@ -60,6 +45,11 @@
         "degree": "국비지원 C/C++ 프로그래밍 응용과정",
         "graduated": "2017.09 ~ 2017.11",
         "description": "프로그래밍에 관심을 가지게 해준 강의"
+      },
+      {
+        "school": "학점은행제",
+        "degree": "컴퓨터공학 학사",
+        "graduated": "2016.07 ~ 2019.08"
       }
     ],
     "work": [
@@ -87,16 +77,12 @@
         "level": "70%"
       },
       {
-        "name": "MySQL",
-        "level": "60%"
-      },
-      {
         "name": "JavaScript",
         "level": "60%"
       },
       {
-        "name": "PHP",
-        "level": "50%"
+        "name": "MySQL",
+        "level": "60%"
       },
       {
         "name": "Linux",
