@@ -327,6 +327,25 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
+.skill-li {
+   height: inherit !important;
+   background: none !important;;
+}
+.skill-li .skill-ul {
+   margin: 0 auto;
+}
+.skill-li .skill-ul li {
+   background-color: #ebeeee;
+   display: inline-block;
+   padding: .82rem;
+   margin-right: 1rem;
+   margin-bottom: 2rem;
+   border-radius: 3px;
+   min-width: 50px;
+   text-align: center;
+   line-height: 30px;
+   height: inherit;
+}
 /*
 .git {
   	-moz-animation: git 2s ease;

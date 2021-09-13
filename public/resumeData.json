@@ -69,28 +69,56 @@
     "skillmessage": "현재 업무에 사용중 혹은 사용했던 기술들입니다.",
     "skills": [
       {
-        "name": "Java",
-        "level": "80%"
+        "category": {
+          "name": "backend",
+          "skills": [
+            "Java", 
+            "PHP", 
+            "Spring Boot",
+            "Spring Security",
+            "Spring Data JPA",
+            "JPA",
+            "Querydsl",
+            "Junit5",
+            "REST Assured",
+            "Gradle"
+          ]
+        }
       },
       {
-        "name": "Spring Framework",
-        "level": "70%"
+        "category": {
+          "name": "DevOps",
+          "skills": [
+            "AWS - EC2, RDS, Beanstalk",
+            "MySQL",
+            "MariaDB",
+            "Nginx"
+          ]
+        }
       },
       {
-        "name": "JavaScript",
-        "level": "60%"
+        "category": {
+          "name": "Frontend",
+          "skills": [
+            "HTML5",
+            "CSS3",
+            "JS",
+            "JQuery"
+          ]
+        }
       },
       {
-        "name": "MySQL",
-        "level": "60%"
-      },
-      {
-        "name": "Linux",
-        "level": "50%"
-      },
-      {
-        "name": "AWS",
-        "level": "40%"
+        "category": {
+          "name": "Tools",
+          "skills": [
+            "IntelliJ",
+            "DataGrip",
+            "VS Code",
+            "Vim",
+            "Git",
+            "Notion"
+          ]
+        }
       }
     ]
   },
@@ -129,7 +157,8 @@
           "JPA",
           "Querydsl",
           "Gradle 6",
-          "Junit 5"
+          "Junit 5",
+          "Google Charts"
         ]
       },
       {
@@ -151,7 +180,8 @@
           "JPA",
           "Querydsl",
           "Gradle 6",
-          "Junit 5"
+          "Junit 5",
+          "Google Charts"
         ]
       },
       {
