@@ -17,7 +17,7 @@ class Resume extends Component {
         </div>
       })
       var skills = this.props.data.skills.map(function(skills){
-        var className = skills.category.name;
+        var className = skills.category.name;;
         var childLi = [];
         
         for(let i = 0; i < skills.category.skills.length; i++) {
